@@ -1,0 +1,36 @@
+.hd1 {
+    font-family: "Uncut Sans Variable-Bold", Helvetica;
+    font-weight: 800;
+    color: white;
+    font-size: 80px;
+    position: fixed;
+    text-align: center;
+    margin: 23% 17.5% 5% 17.5%;
+    transition: color 0.5s ease;
+    /* Smooth transition for background-color */
+}
+
+.text :hover {
+    color: #330099;
+}
+
+* {
+    cursor: url('cursor.png'), auto;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    mix-blend-mode: hard-light;
+    filter: brightness(105%);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: url('cursor_white.png'), auto;
+}

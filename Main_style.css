@@ -1,0 +1,71 @@
+@font-face {
+    font-family: uncut;
+    src: url(UncutSans-Variable.ttf);
+}
+
+
+#myVideo {
+    filter: blur(90px);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    /* Set the z-index to a lower value */
+}
+
+.home {
+    font-family: uncut;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    position: fixed;
+    top: 5%;
+    left: 90%;
+}
+
+.home :hover {
+    background-color: #330099;
+}
+
+.menu {
+    margin: 5%;
+    font-family: uncut;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    max-width: 40%;
+}
+
+.menu :hover {
+    background-color: #330099;
+    color: white;
+}
+
+.menu div .hover-text {
+    display: none;
+}
+
+.menu div:hover .original-text {
+    display: none;
+}
+
+.menu div:hover .hover-text {
+    display: block;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: url('cursor_white.png'), auto;
+}
+
+span {
+    cursor: url('cursor_white.png'), auto;
+}
+
+* {
+    cursor: url('cursor.png'), auto;
+}

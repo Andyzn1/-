@@ -1,0 +1,89 @@
+#text{
+    font-family: "Uncut Sans Variable-Bold", Helvetica;
+    font-weight: 600;
+    color: #330099;
+    font-size: 60px;
+    text-align: justify;
+    margin: 2%;
+}
+
+.screen{
+    background-color: #ffffffb2;
+    border: 4px solid;
+    border-color: #000000;
+    backdrop-filter: blur(8px) brightness(100%);
+    -webkit-backdrop-filter: blur(8px) brightness(100%);
+    position: fixed;
+    width: 30%;
+    height: 20%;
+    top: 5%;
+    left: 5%;
+}
+
+.screen2{
+    background-color: #ffffffb2;
+    border: 4px solid;
+    border-color: #000000;
+    backdrop-filter: blur(8px) brightness(100%);
+    -webkit-backdrop-filter: blur(8px) brightness(100%);
+    position: fixed;
+    width: 30%;
+    height: 20%;
+    top: 60%;
+    left: 60%;
+}
+
+.BK{
+    filter: blur(4px);
+    font-family: "Uncut Sans Variable-Bold", Helvetica;
+    font-weight: 600;
+    position:fixed;
+    font-size: 100px;
+    text-align: center;
+    margin: 23%;
+    color:darkslategray ;
+    z-index: -1;
+}
+
+.main {
+    position: fixed;
+    font-family: "Uncut Sans Variable-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    width: 5%;
+    top: 90%;
+    left: 5%;
+    z-index: 1;
+}
+
+.main :hover{
+    background-color:#330099 ;
+    color: white;
+}
+
+.next{
+    position: fixed;
+    font-family: "Uncut Sans Variable-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    width: 5%;
+    top: 86%;
+    left: 90%;
+}
+
+.next :hover{
+    background-color:#330099 ;
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: url('cursor_white.png'), auto;
+}
+
+* {
+    cursor: url('cursor.png'), auto;
+}
